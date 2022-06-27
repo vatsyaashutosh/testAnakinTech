@@ -13,7 +13,7 @@ const puppeteer = require("puppeteer");
 
   await page.waitForSelector("#location-input");
   //You can search places by replacing singapore on line 16 as second parameter in the type.
-  await page.type("#location-input", "woodlands");
+  await page.type("#location-input", "singapore");
   await page.waitForSelector(
     "#page-content > div.sectionContainer___3GDBD.searchSectionContainer___3Lhkk.ant-layout > div > button"
   );
